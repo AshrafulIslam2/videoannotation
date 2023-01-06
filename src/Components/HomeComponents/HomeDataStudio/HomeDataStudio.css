@@ -1,0 +1,29 @@
+.datastudio{
+    padding-top: 10px;
+    position: relative;
+    background-image: url("https://uploads-ssl.webflow.com/612770618d97595db63a9470/63a5b25d67095258f05d16f2_Data-Studio-BGsvg.svg");
+    background-position: 50% 50%;
+    background-color: #1f1a2e;
+    background-position: 50% 50%;
+    background-size: ;
+    /* background-size: 80%; */
+    background-repeat: no-repeat;
+}
+.data{
+    border-radius: 64px;
+    height: 76px;
+    padding: 1px 4px;
+    background-image: linear-gradient(45deg,#ff5b72,#8b4bff);
+    color: #fff;
+}
+.data h1 {
+    position: static;
+    width: 100%;
+    height: 72px;
+    margin-top:1px;
+    padding-right: 56px;
+    padding-left: 56px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}

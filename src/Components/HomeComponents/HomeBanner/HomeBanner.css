@@ -1,0 +1,23 @@
+.homeBanner{
+    background-image: url("https://assets-global.website-files.com/5b26e3fda3234fe366aa392d/618ea0e553153b01651be477_grid-500.png");
+    background-position: center;
+    background-size: contain;
+    border: 2px solid rgb(195, 193, 193);
+    border-radius: 10px;
+    display: flex;
+    padding: 40px 0px;
+   
+}
+.imagediv img{
+    border-radius: 25px;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+.imagediv img:hover{
+    filter: grayscale(1)contrast(2);
+}
+
+    /* top: 0;
+    z-index: 100;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); */ 
