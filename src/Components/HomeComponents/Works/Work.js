@@ -22,7 +22,9 @@ const Work = () => {
       </div>
       <div>
         <video
-          controls
+          loop
+          muted
+          autoPlay={true}
           className="rounded-xl w-[1600px] shadow-2xl shadow-black"
         >
           <source

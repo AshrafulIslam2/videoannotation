@@ -3,8 +3,8 @@ import "./HomeDataStudio.css";
 
 const HomeDataStudio = () => {
   return (
-    <div className="relative datastudio ">
-      <div className="data relative">
+    <div className=" datastudio  ">
+      <div className="data z-50 sticky top-0 mt-6">
         {" "}
         <h1 className="w-full h-72px rounded-[54px] px-[56px] bg-[#1f1a2e]">
           Data Studio
@@ -33,11 +33,11 @@ const HomeDataStudio = () => {
           </div>
           <div>
             <video
-              controls
-              loop=""
-              muted=""
-              playsinline=""
-              data-wf-ignore="true"
+              loop
+              muted
+              autoPlay={true}
+              //   playsinline=""
+              //   data-wf-ignore="true"
               data-object-fit="cover"
               width={1200}
             >
@@ -57,9 +57,18 @@ const HomeDataStudio = () => {
         </div>
       </div>
 
-      <div>
+      <div className="relative bg-[#292933] px-7 rounded-tl-2xl rounded-tr-2xl m-10 flex ">
         <div>
-          <h1 className="text-3xl text-white tracking-tight font-bold">
+          <img
+            className="absolute -left-10 -top-10 t-3"
+            src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/63aaec08e473f332b0a9aff3_Ranked%20%231%20css.svg"
+            width={100}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div>
+          <h1 className="text-3xl text-white tracking-tight font-bold mt-10 py-6">
             Annotation Services
           </h1>
           <p className="text-white">
@@ -67,6 +76,83 @@ const HomeDataStudio = () => {
             professionally-managed annotation teams that speak up to 18
             languages.
           </p>
+          <div className="flex text-white mb-2 mt-2">
+            <img
+              className="mr-2"
+              src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/635bd7a4332189b0a34aae45_Check.svg"
+              alt=""
+              srcset=""
+            />
+            <p>
+              Guarantee stellar project delivery with SuperAnnotate’s dedicated
+              annotation project manager.
+            </p>
+          </div>
+          <div className="flex  text-white mb-2">
+            <img
+              className="mr-2"
+              src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/635bd7a4332189b0a34aae45_Check.svg"
+              alt=""
+              srcset=""
+            />
+            <p>
+              Guarantee stellar project delivery with SuperAnnotate’s dedicated
+              annotation project manager.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            className="pt-4 relative top-[38px]"
+            src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/63a6f6ed9e321889cf6e0f7d_Services.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+
+      <div className="relative bg-[#292933] px-7 rounded-tl-2xl rounded-tr-2xl ml-10 mr-10 mt-10 mb-10 flex  items-center  ">
+        <div className="">
+          <img
+            width={1000}
+            className="relative top-[50px] -left-5 ml-3"
+            src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/63a6fa8c8d62e6aab5bd3c00_Project%20Managment.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div>
+          <h1 className="text-3xl text-white tracking-tight font-bold mt-10 py-6">
+            Project management
+          </h1>
+          <p className="text-white py-4">
+            Enhance team and project performance with advanced analytics and
+            management systems.
+          </p>
+          <div className="flex text-white mb-2">
+            <img
+              className="mr-2"
+              src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/635bd7a4332189b0a34aae45_Check.svg"
+              alt=""
+              srcset=""
+            />
+            <p>
+              Guarantee stellar project delivery with SuperAnnotate’s dedicated
+              annotation project manager.
+            </p>
+          </div>
+          <div className="flex  text-white mb-2">
+            <img
+              className="mr-2"
+              src="https://uploads-ssl.webflow.com/612770618d97595db63a9470/635bd7a4332189b0a34aae45_Check.svg"
+              alt=""
+              srcset=""
+            />
+            <p>
+              Guarantee stellar project delivery with SuperAnnotate’s dedicated
+              annotation project manager.
+            </p>
+          </div>
         </div>
       </div>
     </div>

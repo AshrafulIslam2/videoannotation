@@ -13,7 +13,9 @@ const ProductionReady = () => {
       </p>
       <div>
         <video
-          controls
+          loop
+          muted
+          autoPlay={true}
           className="rounded-xl w-10/12 mx-auto shadow-2xl shadow-black"
         >
           <source
@@ -22,7 +24,7 @@ const ProductionReady = () => {
           />
         </video>
       </div>
-      <div className="grid grid-cols-5 gap-4  my-10 pb-10 px-10">
+      <div className="grid grid-cols-5 gap-4  mt-10 pb-10 px-10">
         <div className="flex flex-col items-center">
           <img
             className="w-[200px]"
