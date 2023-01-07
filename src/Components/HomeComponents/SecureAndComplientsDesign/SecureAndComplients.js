@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../../../SharedComponents/Button";
 
 const SecureAndComplients = () => {
   const secures = [
@@ -70,7 +69,7 @@ const SecureAndComplients = () => {
         </div>
       </div>
 
-      <div>
+      <div className="my-10">
         <h1 className=" text-4xl font-bold text-white bg-[#1f1a2e] h-32 flex items-center justify-center">
           {"Your AI deserves {Best Solution}"}
           <button

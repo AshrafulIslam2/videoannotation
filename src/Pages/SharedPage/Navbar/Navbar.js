@@ -42,7 +42,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a>Pricing</a>
+              <Link to="/pricing">Pricing</Link>
             </li>
             <Link to="/signin">
               <button
