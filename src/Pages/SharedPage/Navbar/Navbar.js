@@ -7,9 +7,12 @@ const Navbar = () => {
     <div>
       <div className="navbar sticky top-0 z-40">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-2xl italic font-extrabold ">
+          <Link
+            to="/"
+            className="btn btn-ghost normal-case text-2xl italic font-extrabold "
+          >
             Dot AI
-          </a>
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
@@ -49,12 +52,15 @@ const Navbar = () => {
                 Sign In
               </button>
             </Link>
-            <button
-              type="button"
-              className="text-sm font-bold text-white bg-cyan-700 py-2 px-3 ml-2 hover:bg-cyan-500"
-            >
-              Request Demo
-            </button>
+            <Link>
+              {" "}
+              <button
+                type="button"
+                className="text-sm font-bold text-white bg-cyan-700 py-2 px-3 ml-2 hover:bg-cyan-500"
+              >
+                Request Demo
+              </button>
+            </Link>
           </ul>
         </div>
       </div>
