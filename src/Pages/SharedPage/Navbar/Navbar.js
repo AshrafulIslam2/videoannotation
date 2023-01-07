@@ -34,10 +34,10 @@ const Navbar = () => {
               </a>
               <ul className="p-2 bg-base-100">
                 <li>
-                  <a>Image Annotation</a>
+                  <Link to="/imageAnnotaion">Image Annotation</Link>
                 </li>
                 <li>
-                  <a>Video Annotation</a>
+                  <Link to="/imageAnnotaion">Video Annotation</Link>
                 </li>
               </ul>
             </li>
