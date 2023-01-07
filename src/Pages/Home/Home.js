@@ -5,6 +5,7 @@ import HomeHowToVideoAnnotionWork from "../../Components/HomeComponents/HomeHowt
 import HomeTrustedCompanies from "../../Components/HomeComponents/HomeTrustedCompanies/HomeTrustedCompanies";
 import HomeVisionAi from "../../Components/HomeComponents/HomeVisionAI/HomeVisionAi";
 import ProductionReady from "../../Components/HomeComponents/ProductionReady/ProductionReady";
+import SecureAndComplients from "../../Components/HomeComponents/SecureAndComplientsDesign/SecureAndComplients";
 import Work from "../../Components/HomeComponents/Works/Work";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <ProductionReady></ProductionReady>
       <HomeDataStudio></HomeDataStudio>
       <HomeVisionAi></HomeVisionAi>
+      <SecureAndComplients></SecureAndComplients>
     </div>
   );
 };
