@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Service</a>
+              <Link to="/service">Service</Link>
             </li>
             <li tabIndex={0}>
               <a>
