@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const HomeVisionAi = () => {
   const visions = [
@@ -53,7 +54,11 @@ const HomeVisionAi = () => {
       </p>
       <div className="grid grid-cols-3 gap-x-4 gap-y-10  ">
         {visions.map((vision) => (
-          <div className="shadow-2xl shadow-slate-400 rounded-lg">
+          <motion.div
+            className="shadow-2xl shadow-slate-400 rounded-lg"
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="rounded-t-lg">
               <img className="rounded-t-lg" src={vision.img} alt="" srcset="" />
             </div>
@@ -64,7 +69,7 @@ const HomeVisionAi = () => {
                 {vision.details}
               </p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
